@@ -87,8 +87,10 @@ class Books extends Component {
     });
     return (
       <div className="App container">
-
-      <h1>Stacks</h1>
+        <header className="App-header">     
+            <h1 style={{ color: 'white' }}>Bookshelf</h1>
+        </header>
+        <h4 style={{ color: 'white' }}>Add and rate books on your shelf</h4>
 
       <Button className="my-3" color="primary" onClick={this.toggleNewBookModal.bind(this)}>Add Book</Button>
 
@@ -158,13 +160,13 @@ class Books extends Component {
         <Table>
           <thead>
             <tr>
-              <th>Title</th>
-              <th>Rating</th>
-              <th>Actions</th>
+              <th style={{ color: 'white' }}>Title</th>
+              <th style={{ color: 'white' }}>Rating</th>
+              <th style={{ color: 'white' }}>Actions</th>
             </tr>
           </thead>
 
-          <tbody>
+          <tbody style={{ color: 'white' }}>
             {books}
           </tbody>
         </Table>

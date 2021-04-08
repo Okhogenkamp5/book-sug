@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Form = props => (
-    <form onSubmit={props.getBook}>
+    <form onSubmit={props.getBook} >
         <input type="text" name="bookName"/>
-        <button>View New York Times Top </button>
+        <button>View Books!</button>
     </form>
 
 );

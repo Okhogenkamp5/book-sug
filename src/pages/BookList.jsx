@@ -24,11 +24,12 @@ class BookList extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="App" style={{ color: 'white' }}>
         <header className="App-header">
           <h1 className="App-title">Book Search</h1>
         </header>
-        <Form getBook={this.getBook}/>
+        <h3 style={{ color: 'white' }}>View the Current New York Times Best Sellers List</h3>
+        <Form getBook={this.getBook} />
         { this.state.books.map((book) => {
           return <p key={book.title}>{ book.title }</p>
         }) }
