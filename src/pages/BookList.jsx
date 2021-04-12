@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-//import './App.css';
 
 import Form from "./components/Form"
 
@@ -13,7 +12,6 @@ class BookList extends Component {
 
   }
   getBook = async (e) => {
-    const bookName = e.target.elements.bookName.value;
     e.preventDefault();
     const api_call = await fetch(`https://api.nytimes.com/svc/books/v3/lists/current/hardcover-fiction.json?api-key=${API_KEY}`);
     
