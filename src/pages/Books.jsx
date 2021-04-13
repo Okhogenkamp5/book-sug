@@ -1,3 +1,18 @@
+/**************************************************************
+*    Title: React JS REST API Tutorial
+*    Author: TheCodePro
+*    Availability: https://www.youtube.com/watch?v=9CPmtIeapMw
+*
+*    Title: Create a Fake REST API with JSON-Server
+*    Author: Traversy Media
+*    Availability: https://www.youtube.com/watch?v=1zkgdLZEdwM
+*
+*    Title: JSON-Server
+*    Author: typicode
+*    Availability: https://github.com/typicode/json-server#remote-schema
+*
+**************************************************************/
+
 import React, { Component } from 'react';
 import axios from 'axios';
 import { Input, FormGroup, Label, Modal, ModalHeader, ModalBody, ModalFooter, Table, Button } from 'reactstrap';

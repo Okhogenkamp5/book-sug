@@ -1,15 +1,21 @@
-import React, { Component } from 'react';
+/****************************************************************
+*    Title: Using APIs in React
+*    Author: Hamza
+*    Availability: https://www.youtube.com/watch?v=PbJt7-a2274&t=79s
+*
+*    Title: The New York Times Developer Network
+*    Availability: https://developer.nytimes.com/
+*
+*****************************************************************/
 
-import Form from "./components/Form"
+import React, { Component } from 'react';import Form from "./components/Form"
 
 const API_KEY = "eHjNwqmql7skS2uyqi9ic8Wlhm2NWL6q";
-
 
 class BookList extends Component {
 
   state = {
     books: []
-
   }
   getBook = async (e) => {
     e.preventDefault();
